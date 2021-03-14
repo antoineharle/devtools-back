@@ -22,3 +22,6 @@
 .idea/php.xml
 
 ###<Custom ignore ###
+###> friends-of-behat/symfony-extension ###
+/behat.yml
+###< friends-of-behat/symfony-extension ###
