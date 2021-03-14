@@ -1,0 +1,15 @@
+default:
+    suites:
+        default:
+            contexts:
+                - App\Tests\Behat\DemoContext
+
+    extensions:
+            Behat\MinkExtension:
+                base_url: "https://localhost/"
+                default_session: symfony
+                sessions:
+                    symfony:
+                        symfony: ~
+            FriendsOfBehat\SymfonyExtension:
+                bootstrap: tests/bootstrap.php
