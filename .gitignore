@@ -18,5 +18,7 @@
 
 ###>Custom ignore ###
 /.idea/
+.idea/
+.idea/php.xml
 
 ###<Custom ignore ###
